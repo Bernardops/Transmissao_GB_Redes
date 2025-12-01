@@ -1,0 +1,41 @@
+PS C:\Users\User\OneDrive\Documentos\Código\GB_Redes> & C:/Users/User/AppData/Local/Programs/Python/Python313/python.exe c:/Users/User/OneDrive/Documentos/Código/GB_Redes/projeto_transmissao.py
+=== Escolha da mensagem ===
+1 - Digitar uma mensagem
+2 - Usar mensagem padrão
+Opção (1/2): 2
+
+Mensagem original: The quick brown fox jumps over a lazy dog 0123456789
+Total de bits gerados: 416
+Bits da mensagem (todos):
+[0 1 0 1 0 1 0 0 0 1 1 0 1 0 0 0 0 1 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0
+ 0 0 1 0 1 1 1 0 1 0 1 0 1 1 0 1 0 0 1 0 1 1 0 0 0 1 1 0 1 1 0 1 0 1 1 0 0
+ 1 0 0 0 0 0 0 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 1
+ 1 0 1 1 0 1 1 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 1
+ 1 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 1 0 0 1 1 1 0 1 0 1 0 1 1 0 1 1 0 1 0
+ 1 1 1 0 0 0 0 0 1 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1
+ 1 0 0 1 1 0 0 1 0 1 0 1 1 1 0 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 1
+ 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 1 0 0 0 0 1 0 1 1 1 1 0 1 0 0 1 1 1 1 0 0 1
+ 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 1 0 1 1 1 1 0 1 1 0 0 1 1 1 0 0 1 0 0
+ 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 1 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 1 0 0
+ 1 1 0 1 0 0 0 0 1 1 0 1 0 1 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 1 0 0 1 1 1 0 0
+ 0 0 0 1 1 1 0 0 1]
+
+Reconstrução direta (sem canal):
+The quick brown fox jumps over a lazy dog 0123456789
+
+=== Escolha do tipo de canal para as simulações ===
+1 - Canal AWGN
+2 - Canal com ruído em rajada
+3 - Comparar AWGN e rajada
+Opção (1/2/3): 3
+
+=== Demonstração da mensagem transmitida ===
+Modulação: BPSK | Eb/N0 = 4.0 dB
+Canal usado: AWGN (comparação)
+Mensagem recebida via BPSK:
+The qUick browo fox je-ps over a lazytdog 0123456789
+
+Modulação: QPSK | Eb/N0 = 4.0 dB
+Mensagem recebida via QPSK:
+The quic+ brown fx jumPs owmr a lazy dog 0123456789
+PS C:\Users\User\OneDrive\Documentos\Código\GB_Redes> 
